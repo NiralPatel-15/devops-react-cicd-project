@@ -1,16 +1,24 @@
-# React + Vite
+# DevOps CI/CD Pipeline for React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+This project demonstrates a complete DevOps workflow using GitHub, Docker, Docker Hub, and GitHub Pages.
 
-Currently, two official plugins are available:
+## Tech Stack
+- React (Vite)
+- Docker
+- GitHub Actions (CI/CD)
+- Docker Hub
+- GitHub Pages
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## CI/CD Pipeline
+1. Developer pushes code to GitHub
+2. GitHub Actions builds the application
+3. Docker image is created
+4. Image is pushed to Docker Hub
+5. Application is deployed via GitHub Pages
 
-## React Compiler
+## Live Demo
+https://niralpatel-15.github.io/devops-react-cicd-project/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Docker Image
+https://hub.docker.com/r/niralcode/devops-react-app

@@ -1,11 +1,14 @@
-import "./App.css";
+import NiralPortfolio from "./Components/NiralPortfolio";
+import VishwaPortfolio from "./Components/VishwaPortfolio";
 
 function App() {
   return (
-    <div>
-      <h1>DevOps CI/CD Project </h1>
-      <p>React + Docker + GitHub Actions + GCP</p>
-      <p>Built by Niral & Vishwa</p>
+    <div style={{ textAlign: "center", fontFamily: "Arial" }}>
+      <h1>DevOps CI/CD Portfolio Project 🚀</h1>
+      <p>Collaborative DevOps project using GitHub, Docker, and CI/CD</p>
+
+      <NiralPortfolio />
+      <VishwaPortfolio />
     </div>
   );
 }
