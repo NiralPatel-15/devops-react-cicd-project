@@ -9,6 +9,7 @@ const NiralPortfolio = () => {
         margin: "20px",
         borderRadius: "10px",
         backgroundColor: "#f6fff6",
+        color: "#000",
       }}
     >
       <h2>Niral Patel 👨‍💻</h2>
@@ -26,8 +27,8 @@ const NiralPortfolio = () => {
 
       <h3>Project Contribution</h3>
       <p>
-        Built the DevOps CI/CD pipeline using GitHub Actions, Docker, and GitHub
-        Pages. Implemented containerization and automated deployment workflow.
+        Built the DevOps CI/CD pipeline using GitHub Actions, Docker and GitHub
+        Pages.
       </p>
     </div>
   );
