@@ -1,35 +1,42 @@
 import React from "react";
+import vishwaImg from "../assets/vishwa.jpeg";
 
 const VishwaPortfolio = () => {
   return (
     <div
       style={{
+        width: "350px",
         border: "2px solid #2196F3",
+        borderRadius: "12px",
         padding: "20px",
-        margin: "20px",
-        borderRadius: "10px",
         backgroundColor: "#f0f8ff",
-        color: "#000",
+        textAlign: "center",
       }}
     >
-      <h2>Vishwa Tandel 👩‍💻</h2>
+      <img
+        src={vishwaImg}
+        alt="vishwa"
+        style={{
+          width: "120px",
+          height: "120px",
+          objectFit: "cover",
+          borderRadius: "8px", 
+          marginBottom: "10px",
+        }}
+      />
+
+      <h2>Vishwa Tandel </h2>
       <p>
         <b>DevOps Project Collaborator</b>
       </p>
 
       <h3>Skills</h3>
-      <ul>
+      <ul style={{ textAlign: "left" }}>
         <li>Git Collaboration</li>
         <li>Docker Containers</li>
         <li>CI/CD Workflow</li>
         <li>React Development</li>
       </ul>
-
-      <h3>Project Contribution</h3>
-      <p>
-        Worked on collaborative development and deployment of the DevOps CI/CD
-        project.
-      </p>
     </div>
   );
 };

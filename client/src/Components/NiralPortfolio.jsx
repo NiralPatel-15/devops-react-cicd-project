@@ -1,35 +1,42 @@
 import React from "react";
+import niralImg from "../assets/niral.jpeg"
 
 const NiralPortfolio = () => {
   return (
     <div
       style={{
-        border: "2px solid #4CAF50",
+        width: "350px",
+        border: "2px solid #2196F3",
+        borderRadius: "12px",
         padding: "20px",
-        margin: "20px",
-        borderRadius: "10px",
-        backgroundColor: "#f6fff6",
-        color: "#000",
+        backgroundColor: "#f0f8ff",
+        textAlign: "center",
       }}
     >
-      <h2>Niral Patel 👨‍💻</h2>
+      <img
+        src={niralImg}
+        alt="Niral"
+        style={{
+          width: "120px",
+          height: "120px",
+          objectFit: "cover",
+          borderRadius: "8px",
+          marginBottom: "10px",
+        }}
+      />
+
+      <h2>Niral Patel </h2>
       <p>
         <b>MCA Student | DevOps Enthusiast</b>
       </p>
 
       <h3>Skills</h3>
-      <ul>
+      <ul style={{ textAlign: "left" }}>
         <li>Docker</li>
         <li>Git & GitHub</li>
         <li>CI/CD Pipelines</li>
         <li>React</li>
       </ul>
-
-      <h3>Project Contribution</h3>
-      <p>
-        Built the DevOps CI/CD pipeline using GitHub Actions, Docker and GitHub
-        Pages.
-      </p>
     </div>
   );
 };
