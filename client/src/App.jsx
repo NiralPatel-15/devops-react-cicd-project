@@ -1,25 +1,20 @@
-import NiralPortfolio from "./Components/NiralPortfolio";
-import VishwaPortfolio from "./Components/VishwaPortfolio";
+import React from "react";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+
+import Header from "./components/Header";
+import Home from "./pages/Home";
+import TeamMember from "./pages/TeamMember";
 
 function App() {
   return (
-    <div style={{ textAlign: "center", fontFamily: "Arial", padding: "20px" }}>
-      <h1>DevOps CI/CD Portfolio Project</h1>
-      <p>Collaborative DevOps project using GitHub, Docker, and CI/CD</p>
+    <Router>
+      <Header />
 
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          gap: "30px",
-          flexWrap: "wrap",
-          marginTop: "40px",
-        }}
-      >
-        <NiralPortfolio />
-        <VishwaPortfolio />
-      </div>
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/team" element={<TeamMember />} />
+      </Routes>
+    </Router>
   );
 }
 
