@@ -1,6 +1,6 @@
 import React from "react";
 import projectImg from "../assets/project.jpg";
-import githubImg from "../assets/GitHub.webp";
+import githubImg from "../assets/github.webp";
 
 const WorkExperience = () => {
   return (
