@@ -23,14 +23,14 @@ const Hero = () => {
           </p>
 
           <div className="call-to-action">
-            <a
+            {/* <a
               href="/devops-react-cicd-project/Sample-resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="button black"
             >
               View Resume
-            </a>
+            </a> */}
 
             <a href="mailto:patelniral0231@gmail.com" className="button white">
               Contact Me
