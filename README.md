@@ -20,3 +20,5 @@ This project demonstrates a complete DevOps workflow using GitHub, Docker, Docke
 ## Live Demo
 https://niralpatel-15.github.io/devops-react-cicd-project/
 
+## Docker Image
+https://hub.docker.com/r/niralcode/devops-react-app
